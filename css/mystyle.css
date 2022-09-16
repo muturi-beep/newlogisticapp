@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(36, 36, 129);
+}
+p {
+    color: black;
+    padding-bottom: 10px;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 {
+    max-width: 100%;
+    padding: 0 60px;
+    margin-bottom: 100px;
+}
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 25px 0;
+}
+.btns {
+    display: inline-block;
+    background: rgb(7, 7, 109);
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: bckground 0.5s;
+}
+.btns:hover {
+    background: rgb(35, 95, 35);
+}
+.header {
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.header .row {
+    margin-top: 70px;
+}
+.categories {
+    margin: 70px 0;
+}
+.col-sm-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-sm-3 img {
+    width: 100%;
+}
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img {
+    width: 100%;
+    
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: orangered;
+}
+.title::after{
+    content: '';
+    background: black;
+    width: 80px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+h4 {
+    color: blue;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating .fa{
+    color: blue;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+/* -------offer------- */
+
+.offer{
+    
+    margin-top: 80px;
+    padding: 50px;
+}
+.col-2 .offer-img{
+    padding: 0px;
+}
+small{
+    color: blue;
+}
+
+
