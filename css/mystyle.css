@@ -126,9 +126,9 @@ h4 {
 .col-4 p{
     font-size: 14px;
 }
-.rating .fa{
+/* .rating .fa{
     color: blue;
-}
+} */
 .col-4:hover{
     transform: translateY(-5px);
 }
@@ -136,7 +136,7 @@ h4 {
 /* -------offer------- */
 
 .offer{
-    
+    background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
     padding: 50px;
 }
@@ -148,3 +148,115 @@ small{
 }
 
 
+/* ---------testimonial------ */
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    float: left;
+    margin-left: 0px;
+    padding: 40px 20px;
+    width: 100%;
+    box-shadow:0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.col-3 p{
+    font-size: 20px;
+    margin: 12px 0;
+    
+}
+/* ----------footer------- */
+.footer{
+    background: pink;
+    color: blue;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: black;
+}
+.footer h3{
+    color: blue;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: blue;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+/* --------media query for menu------- */
+
+/* @media only screen and (max-width: 800px){
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: white;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+/* -------media query for less 600 screen size-------- */
+/* .row{
+    text-align: center;
+}
+.col-2, .col-3, .col-4{
+    flex-basis: 100%;
+} */
